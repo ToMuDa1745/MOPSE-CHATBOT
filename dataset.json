@@ -1,0 +1,48 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "hi", "hello", "Hello", "Hey", "Good morning", "good evening", "greetings", "Good afternoon"],
+            "responses": ["Hello! How can I assist you today?", "Hi there! What can I help you with?", "Hey! How can I assist?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Goodbye","Have a great day", "See you later"],
+            "responses": ["Goodbye! Have a great day!", "See you later!", "Bye! Take care!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you"],
+            "responses": ["You're welcome!", "No problem!", "Happy to help!"]
+        }
+
+    ],
+    "schools": [
+        {
+            "name": "Yemurai Primary School",
+            "address": "Dzivarasekwa Extension, Harare",
+            "principal": "John Doe",
+            "motto": "Learning is Fun",
+            "contact": {
+                "phone": "123-456-7890",
+                "email": "info@yemuraiprimary.edu"
+            },
+            "programs": ["Grade 1-7", "Arts", "Sports"],
+            "newsletter": "Yemurai Monthly",
+            "events": ["Sports Day", "Open Day"]
+        },
+        {
+            "name": "Mutoko High School",
+            "address": " Mutoko",
+            "principal": "Jane Smith",
+            "motto": "Excellence in Education",
+            "contact": {
+                "phone": "987-654-3210",
+                "email": "info@mutokohigh.edu"
+            },
+            "programs": ["Form 1-6", "STEM", "Commercials", "Arts"],
+            "newsletter": "Mutoko Times",
+            "events": ["Annual Sports", "Science Fair"]
+        }
+    ]
+}
